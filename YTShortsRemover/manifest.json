@@ -1,0 +1,11 @@
+{
+    "manifest_version": 3,
+    "name": "Remove Youtube Shorts",
+    "version": "1.0",
+    "content_scripts": [
+        {
+            "matches" : [ "https://www.youtube.com/*"],
+            "js" : ["RemoveYTShorts.js"]
+        }
+    ]
+}
